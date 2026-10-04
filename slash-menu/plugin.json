@@ -8,5 +8,6 @@
   "tier": "script",
   "entry": "main.lua",
   "permissions": ["editor.complete"],
-  "min_app": "0.1.0"
+  "min_app": "0.1.0",
+  "tags": ["editor","completion"]
 }

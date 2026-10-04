@@ -8,5 +8,6 @@
   "tier": "script",
   "entry": "main.lua",
   "permissions": ["notes.read", "notes.write", "notes.index", "note.read", "note.edit", "ui"],
-  "min_app": "0.1.0"
+  "min_app": "0.1.0",
+  "tags": ["daily","templates"]
 }

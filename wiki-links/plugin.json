@@ -8,5 +8,6 @@
   "tier": "script",
   "entry": "main.lua",
   "permissions": ["notes.read", "notes.index", "note.read", "notes.write", "editor.complete", "editor.links", "ui.panel", "ui"],
-  "min_app": "0.1.0"
+  "min_app": "0.1.0",
+  "tags": ["links","backlinks"]
 }

@@ -1,0 +1,106 @@
+{
+  "plugins": [
+    {
+      "api": 2,
+      "author": "Hyprnotes",
+      "description": "Daily notes and templates: open today's note, step between days, create a note from a template or insert one into the open note.",
+      "id": "journal",
+      "min_app": "0.1.0",
+      "name": "Journal and Templates",
+      "net_hosts": [],
+      "permissions": [
+        "notes.read",
+        "notes.write",
+        "notes.index",
+        "note.read",
+        "note.edit",
+        "ui"
+      ],
+      "sha256": "cd14a488475f68c22635054687b432fe4ddadf829cb2454a70a3344f639135d3",
+      "size": 4710,
+      "tags": [
+        "daily",
+        "templates"
+      ],
+      "tier": "script",
+      "url": "https://github.com/RolittapesReal/hyprnotes-plugins/releases/download/journal-1.0.0/journal-1.0.0.hnplugin",
+      "version": "1.0.0"
+    },
+    {
+      "api": 2,
+      "author": "Hyprnotes",
+      "description": "Type / at the start of a line to insert headings, lists, tasks, quotes, code blocks, dividers, tables, the date or a link to a note.",
+      "id": "slash-menu",
+      "min_app": "0.1.0",
+      "name": "Slash Menu",
+      "net_hosts": [],
+      "permissions": [
+        "editor.complete"
+      ],
+      "sha256": "ac7edd39be9550c6c91dba9e42595169759cb0185dda8db53032a92949ab8f9e",
+      "size": 1869,
+      "tags": [
+        "editor",
+        "completion"
+      ],
+      "tier": "script",
+      "url": "https://github.com/RolittapesReal/hyprnotes-plugins/releases/download/slash-menu-1.0.0/slash-menu-1.0.0.hnplugin",
+      "version": "1.0.0"
+    },
+    {
+      "api": 2,
+      "author": "Hyprnotes",
+      "description": "A side panel with your open tasks, recent notes, notes by tag and saved queries written as one-line filters.",
+      "id": "tasks",
+      "min_app": "0.1.0",
+      "name": "Tasks and Saved Queries",
+      "net_hosts": [],
+      "permissions": [
+        "notes.read",
+        "notes.index",
+        "ui.panel",
+        "ui",
+        "storage"
+      ],
+      "sha256": "cde6dd166c053d73ee5611cbaadb46d717c4ee1718a3834fce4029f659cb9b80",
+      "size": 4762,
+      "tags": [
+        "tasks",
+        "queries"
+      ],
+      "tier": "script",
+      "url": "https://github.com/RolittapesReal/hyprnotes-plugins/releases/download/tasks-1.0.0/tasks-1.0.0.hnplugin",
+      "version": "1.0.0"
+    },
+    {
+      "api": 2,
+      "author": "Hyprnotes",
+      "description": "Link notes with [[wiki links]]: name and heading completion, create a note by clicking an unresolved link, and a Links panel with backlinks, outgoing and unresolved links.",
+      "id": "wiki-links",
+      "min_app": "0.1.0",
+      "name": "Wiki Links",
+      "net_hosts": [],
+      "permissions": [
+        "notes.read",
+        "notes.index",
+        "note.read",
+        "notes.write",
+        "editor.complete",
+        "editor.links",
+        "ui.panel",
+        "ui"
+      ],
+      "sha256": "7d8fe8ee17a4c7b9ebed9ddfad7394a18d5789fc288998b6624cb8fd7b689cf6",
+      "size": 4789,
+      "tags": [
+        "links",
+        "backlinks"
+      ],
+      "tier": "script",
+      "url": "https://github.com/RolittapesReal/hyprnotes-plugins/releases/download/wiki-links-1.0.0/wiki-links-1.0.0.hnplugin",
+      "version": "1.0.0"
+    }
+  ],
+  "schema": 1,
+  "updated": "2026-10-04T03:52:24Z"
+}
