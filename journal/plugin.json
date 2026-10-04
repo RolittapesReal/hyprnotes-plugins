@@ -1,0 +1,12 @@
+{
+  "id": "journal",
+  "name": "Journal and Templates",
+  "version": "1.0.0",
+  "author": "Hyprnotes",
+  "description": "Daily notes and templates: open today's note, step between days, create a note from a template or insert one into the open note.",
+  "api": 2,
+  "tier": "script",
+  "entry": "main.lua",
+  "permissions": ["notes.read", "notes.write", "notes.index", "note.read", "note.edit", "ui"],
+  "min_app": "0.1.0"
+}

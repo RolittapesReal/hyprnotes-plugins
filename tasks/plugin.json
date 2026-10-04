@@ -1,0 +1,12 @@
+{
+  "id": "tasks",
+  "name": "Tasks and Saved Queries",
+  "version": "1.0.0",
+  "author": "Hyprnotes",
+  "description": "A side panel with your open tasks, recent notes, notes by tag and saved queries written as one-line filters.",
+  "api": 2,
+  "tier": "script",
+  "entry": "main.lua",
+  "permissions": ["notes.read", "notes.index", "ui.panel", "ui", "storage"],
+  "min_app": "0.1.0"
+}

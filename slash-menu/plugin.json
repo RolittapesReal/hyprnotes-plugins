@@ -1,0 +1,12 @@
+{
+  "id": "slash-menu",
+  "name": "Slash Menu",
+  "version": "1.0.0",
+  "author": "Hyprnotes",
+  "description": "Type / at the start of a line to insert headings, lists, tasks, quotes, code blocks, dividers, tables, the date or a link to a note.",
+  "api": 2,
+  "tier": "script",
+  "entry": "main.lua",
+  "permissions": ["editor.complete"],
+  "min_app": "0.1.0"
+}

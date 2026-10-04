@@ -1,0 +1,12 @@
+{
+  "id": "wiki-links",
+  "name": "Wiki Links",
+  "version": "1.0.0",
+  "author": "Hyprnotes",
+  "description": "Link notes with [[wiki links]]: name and heading completion, create a note by clicking an unresolved link, and a Links panel with backlinks, outgoing and unresolved links.",
+  "api": 2,
+  "tier": "script",
+  "entry": "main.lua",
+  "permissions": ["notes.read", "notes.index", "note.read", "notes.write", "editor.complete", "editor.links", "ui.panel", "ui"],
+  "min_app": "0.1.0"
+}
